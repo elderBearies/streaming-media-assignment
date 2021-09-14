@@ -11,7 +11,7 @@ const urlStruct = {
   '/party.mp4': mediaHandler.getParty,
   '/bling.mp3': mediaHandler.getBling,
   '/bird.mp4': mediaHandler.getBird,
-  notFound: htmlHandler.getError
+  notFound: htmlHandler.getError,
 };
 
 const onRequest = (request, response) => {
